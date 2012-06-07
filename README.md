@@ -1,4 +1,4 @@
-<img src="https://github.com/Daij-Djan/WasteRemoval/raw/master/Resources/Common/Html/WRLogo.png" width="500" height="227"/>
+<img src="https://github.com/Daij-Djan/WasteRemoval/raw/master/Resources/Common/Html/WRLogo.png" width="100"/>
 
 #About
 WasteRemoval will reside in your menubar (almost No UI) and empty your trash whenever you get below 250MB free disk space. [or a choosable no of bytes]
