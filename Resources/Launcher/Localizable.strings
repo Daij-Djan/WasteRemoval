@@ -1,0 +1,12 @@
+/* 
+   Localizable.strings
+   Autorunner
+
+   Created by Dominik Pich on 3/10/11.
+   Copyright 2011 FHK Gummersbach. All rights reserved.
+ */
+"aboutTitle" = "About";
+"prefsTitle" = "Preferences";
+"prefsEnabled" = "Run in Background and Auto-Start on Login";
+"prefsEnabledHint" = "Start automatically at login (WasteRemoval shows no dock icon when run that way)";
+"prefsMinBytes" = "The minimum number of bytes before on the disk before the app tries to empty the trash.";

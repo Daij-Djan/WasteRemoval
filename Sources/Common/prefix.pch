@@ -1,0 +1,15 @@
+/*
+ *  identifier.pch
+ *  Autorunner
+ *
+ *  Created by Dominik Pich on 3/14/11.
+ *  Copyright 2011 FHK Gummersbach. All rights reserved.
+ *
+ */
+#import <Cocoa/Cocoa.h>
+
+#define BUNDLE_NAME @"WasteRemoval"
+#define BUNDLE_IDENTIFIER @"info.pich.WasteRemoval"
+#define BUNDLE_SHORT_VERSION_STRING @"1.0"
+
+#define MinBytesPrefKey @"MinBytesPrefKey"

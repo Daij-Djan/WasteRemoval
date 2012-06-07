@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B4091CA4132EFF1900EF6EBE /* ServiceManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4E0D546132EC4A2003C5BDD /* ServiceManagement.framework */; };
+		B422C14C132FCE090082A26B /* NSUserDefaults+WR.m in Sources */ = {isa = PBXBuildFile; fileRef = B422C14B132FCE090082A26B /* NSUserDefaults+WR.m */; };
+		B422C14D132FCE090082A26B /* NSUserDefaults+WR.m in Sources */ = {isa = PBXBuildFile; fileRef = B422C14B132FCE090082A26B /* NSUserDefaults+WR.m */; };
+		B422C151132FCE4C0082A26B /* M42Defaults.m in Sources */ = {isa = PBXBuildFile; fileRef = B422C150132FCE4C0082A26B /* M42Defaults.m */; };
+		B422C152132FCE4C0082A26B /* M42Defaults.m in Sources */ = {isa = PBXBuildFile; fileRef = B422C150132FCE4C0082A26B /* M42Defaults.m */; };
+		B43EC7C01328486300196596 /* libcrypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B43EC7BF1328486300196596 /* libcrypto.dylib */; };
+		B43EC7C4132848A600196596 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B43EC7C3132848A600196596 /* IOKit.framework */; };
+		B43EC7C81328491300196596 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B43EC7C71328491300196596 /* Security.framework */; };
+		B4400C7F13436CF8003C43B4 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4D61CC71329853D008C71DC /* WebKit.framework */; };
+		B4400C8013436D03003C43B4 /* Html in Resources */ = {isa = PBXBuildFile; fileRef = B4589603133001E9004B5E24 /* Html */; };
+		B445C939132EF16A008FB2FD /* libcrypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B43EC7BF1328486300196596 /* libcrypto.dylib */; };
+		B445C93A132EF16E008FB2FD /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B43EC7C3132848A600196596 /* IOKit.framework */; };
+		B445C93B132EF175008FB2FD /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B43EC7C71328491300196596 /* Security.framework */; };
+		B445C93D132EF28C008FB2FD /* samplereceipt in Resources */ = {isa = PBXBuildFile; fileRef = B445C93C132EF28C008FB2FD /* samplereceipt */; };
+		B4589605133001E9004B5E24 /* Html in Resources */ = {isa = PBXBuildFile; fileRef = B4589603133001E9004B5E24 /* Html */; };
+		B46E79E3132EDE7400E73D13 /* WRAppController.m in Sources */ = {isa = PBXBuildFile; fileRef = B46E79E2132EDE7400E73D13 /* WRAppController.m */; };
+		B4ABC22F132E161A00EB3B21 /* WasteRemovalHelper.app in Copy Files */ = {isa = PBXBuildFile; fileRef = B4D2BCF71309EA3800C1D901 /* WasteRemovalHelper.app */; };
+		B4ABC461132E189600EB3B21 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4F18680130E049E00D2A01B /* Cocoa.framework */; };
+		B4AE2C7A15271D71000B0B76 /* icon_WasteRemoval.icns in Resources */ = {isa = PBXBuildFile; fileRef = B4AE2C7915271D71000B0B76 /* icon_WasteRemoval.icns */; };
+		B4AE2C7B15271D78000B0B76 /* icon_WasteRemoval.icns in Resources */ = {isa = PBXBuildFile; fileRef = B4AE2C7915271D71000B0B76 /* icon_WasteRemoval.icns */; };
+		B4AE2C7E15271E48000B0B76 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B4AE2C7C15271E48000B0B76 /* Localizable.strings */; };
+		B4AE2C7F15271E48000B0B76 /* mainmenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4AE2C7D15271E48000B0B76 /* mainmenu.xib */; };
+		B4AE2C8215271F3C000B0B76 /* WRAppController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4AE2C8115271F3C000B0B76 /* WRAppController.m */; };
+		B4AE2C91152722F3000B0B76 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B4AE2C90152722F3000B0B76 /* Localizable.strings */; };
+		B4AE2C9315272B2A000B0B76 /* Icon_Menubar.png in Resources */ = {isa = PBXBuildFile; fileRef = B4AE2C9215272B2A000B0B76 /* Icon_Menubar.png */; };
+		B4B3F955132F0BE200142F7A /* NSFileManager+Count.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B3F946132F0BE200142F7A /* NSFileManager+Count.m */; };
+		B4B3F956132F0BE200142F7A /* NSFileManager+Count.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B3F946132F0BE200142F7A /* NSFileManager+Count.m */; };
+		B4B3F957132F0BE200142F7A /* NSString+UUID.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B3F948132F0BE200142F7A /* NSString+UUID.m */; };
+		B4B3F958132F0BE200142F7A /* NSString+UUID.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B3F948132F0BE200142F7A /* NSString+UUID.m */; };
+		B4B3F959132F0BE200142F7A /* NSWindow+localize.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B3F94A132F0BE200142F7A /* NSWindow+localize.m */; };
+		B4B3F95A132F0BE200142F7A /* NSWindow+localize.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B3F94A132F0BE200142F7A /* NSWindow+localize.m */; };
+		B4B3F95B132F0BE200142F7A /* M42PinchableTableview.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B3F94D132F0BE200142F7A /* M42PinchableTableview.m */; };
+		B4B3F95C132F0BE200142F7A /* M42PinchableTableview.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B3F94D132F0BE200142F7A /* M42PinchableTableview.m */; };
+		B4B3F95D132F0BE200142F7A /* M42PinchableWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B3F94F132F0BE200142F7A /* M42PinchableWebView.m */; };
+		B4B3F95E132F0BE200142F7A /* M42PinchableWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B3F94F132F0BE200142F7A /* M42PinchableWebView.m */; };
+		B4B3F95F132F0BE200142F7A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B3F950132F0BE200142F7A /* main.m */; };
+		B4B3F960132F0BE200142F7A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B3F950132F0BE200142F7A /* main.m */; };
+		B4B3F963132F0BEE00142F7A /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4D61CC71329853D008C71DC /* WebKit.framework */; };
+		B4E0D547132EC4A3003C5BDD /* ServiceManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4E0D546132EC4A2003C5BDD /* ServiceManagement.framework */; };
+		B4F1867D130E049100D2A01B /* DiskArbitration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4F1867C130E049100D2A01B /* DiskArbitration.framework */; };
+		B4F18681130E049E00D2A01B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4F18680130E049E00D2A01B /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B4761B4D132EFA45007AD32E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4BD4B9F1309EA12002B9DB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4D2BCF61309EA3800C1D901;
+			remoteInfo = AutorunnerHelper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B4ABC22C132E15EE00EB3B21 /* Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = WasteRemoval.app/Contents/Library/LoginItems;
+			dstSubfolderSpec = 16;
+			files = (
+				B4ABC22F132E161A00EB3B21 /* WasteRemovalHelper.app in Copy Files */,
+			);
+			name = "Copy Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B422C14A132FCE090082A26B /* NSUserDefaults+WR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+WR.h"; sourceTree = "<group>"; };
+		B422C14B132FCE090082A26B /* NSUserDefaults+WR.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+WR.m"; sourceTree = "<group>"; };
+		B422C14F132FCE4C0082A26B /* M42Defaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M42Defaults.h; sourceTree = "<group>"; };
+		B422C150132FCE4C0082A26B /* M42Defaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M42Defaults.m; sourceTree = "<group>"; };
+		B43EC7BF1328486300196596 /* libcrypto.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcrypto.dylib; path = /usr/lib/libcrypto.dylib; sourceTree = "<absolute>"; };
+		B43EC7C3132848A600196596 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
+		B43EC7C71328491300196596 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = /System/Library/Frameworks/Security.framework; sourceTree = "<absolute>"; };
+		B445C93C132EF28C008FB2FD /* samplereceipt */ = {isa = PBXFileReference; lastKnownFileType = file; path = samplereceipt; sourceTree = "<group>"; };
+		B4589603133001E9004B5E24 /* Html */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Html; sourceTree = "<group>"; };
+		B46E79E1132EDE7400E73D13 /* WRAppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRAppController.h; sourceTree = "<group>"; };
+		B46E79E2132EDE7400E73D13 /* WRAppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRAppController.m; sourceTree = "<group>"; };
+		B4ABC217132BE21300EB3B21 /* WasteRemoval.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WasteRemoval.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4AE2C7515271C75000B0B76 /* WasteRemovalHelper-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "WasteRemovalHelper-Info.plist"; sourceTree = "<group>"; };
+		B4AE2C7615271C75000B0B76 /* WasteRemovalLauncher-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "WasteRemovalLauncher-Info.plist"; sourceTree = "<group>"; };
+		B4AE2C7915271D71000B0B76 /* icon_WasteRemoval.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon_WasteRemoval.icns; sourceTree = "<group>"; };
+		B4AE2C7C15271E48000B0B76 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		B4AE2C7D15271E48000B0B76 /* mainmenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = mainmenu.xib; sourceTree = "<group>"; };
+		B4AE2C8015271F3C000B0B76 /* WRAppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRAppController.h; sourceTree = "<group>"; };
+		B4AE2C8115271F3C000B0B76 /* WRAppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRAppController.m; sourceTree = "<group>"; };
+		B4AE2C90152722F3000B0B76 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		B4AE2C9215272B2A000B0B76 /* Icon_Menubar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon_Menubar.png; sourceTree = "<group>"; };
+		B4B3F945132F0BE200142F7A /* NSFileManager+Count.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+Count.h"; sourceTree = "<group>"; };
+		B4B3F946132F0BE200142F7A /* NSFileManager+Count.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+Count.m"; sourceTree = "<group>"; };
+		B4B3F947132F0BE200142F7A /* NSString+UUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+UUID.h"; sourceTree = "<group>"; };
+		B4B3F948132F0BE200142F7A /* NSString+UUID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+UUID.m"; sourceTree = "<group>"; };
+		B4B3F949132F0BE200142F7A /* NSWindow+localize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSWindow+localize.h"; sourceTree = "<group>"; };
+		B4B3F94A132F0BE200142F7A /* NSWindow+localize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSWindow+localize.m"; sourceTree = "<group>"; };
+		B4B3F94C132F0BE200142F7A /* M42PinchableTableview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M42PinchableTableview.h; sourceTree = "<group>"; };
+		B4B3F94D132F0BE200142F7A /* M42PinchableTableview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M42PinchableTableview.m; sourceTree = "<group>"; };
+		B4B3F94E132F0BE200142F7A /* M42PinchableWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M42PinchableWebView.h; sourceTree = "<group>"; };
+		B4B3F94F132F0BE200142F7A /* M42PinchableWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M42PinchableWebView.m; sourceTree = "<group>"; };
+		B4B3F950132F0BE200142F7A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B4B3F951132F0BE200142F7A /* prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = prefix.pch; sourceTree = "<group>"; };
+		B4B3F953132F0BE200142F7A /* validatereceipt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = validatereceipt.h; sourceTree = "<group>"; };
+		B4B3F954132F0BE200142F7A /* validatereceipt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = validatereceipt.m; sourceTree = "<group>"; };
+		B4D2BCF71309EA3800C1D901 /* WasteRemovalHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WasteRemovalHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4D61CC71329853D008C71DC /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = /System/Library/Frameworks/WebKit.framework; sourceTree = "<absolute>"; };
+		B4E0D546132EC4A2003C5BDD /* ServiceManagement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ServiceManagement.framework; path = System/Library/Frameworks/ServiceManagement.framework; sourceTree = SDKROOT; };
+		B4F1867C130E049100D2A01B /* DiskArbitration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DiskArbitration.framework; path = /System/Library/Frameworks/DiskArbitration.framework; sourceTree = "<absolute>"; };
+		B4F18680130E049E00D2A01B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B4ABC20D132BE21300EB3B21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4ABC461132E189600EB3B21 /* Cocoa.framework in Frameworks */,
+				B4B3F963132F0BEE00142F7A /* WebKit.framework in Frameworks */,
+				B445C939132EF16A008FB2FD /* libcrypto.dylib in Frameworks */,
+				B4091CA4132EFF1900EF6EBE /* ServiceManagement.framework in Frameworks */,
+				B445C93B132EF175008FB2FD /* Security.framework in Frameworks */,
+				B445C93A132EF16E008FB2FD /* IOKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4D2BCF51309EA3800C1D901 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4E0D547132EC4A3003C5BDD /* ServiceManagement.framework in Frameworks */,
+				B4F1867D130E049100D2A01B /* DiskArbitration.framework in Frameworks */,
+				B4F18681130E049E00D2A01B /* Cocoa.framework in Frameworks */,
+				B43EC7C01328486300196596 /* libcrypto.dylib in Frameworks */,
+				B43EC7C4132848A600196596 /* IOKit.framework in Frameworks */,
+				B43EC7C81328491300196596 /* Security.framework in Frameworks */,
+				B4400C7F13436CF8003C43B4 /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B422C14E132FCE4C0082A26B /* M42Defaults */ = {
+			isa = PBXGroup;
+			children = (
+				B422C14F132FCE4C0082A26B /* M42Defaults.h */,
+				B422C150132FCE4C0082A26B /* M42Defaults.m */,
+			);
+			path = M42Defaults;
+			sourceTree = "<group>";
+		};
+		B43EC67A132840B100196596 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4E0D546132EC4A2003C5BDD /* ServiceManagement.framework */,
+				B4F1867C130E049100D2A01B /* DiskArbitration.framework */,
+				B4F18680130E049E00D2A01B /* Cocoa.framework */,
+				B43EC7BF1328486300196596 /* libcrypto.dylib */,
+				B43EC7C3132848A600196596 /* IOKit.framework */,
+				B43EC7C71328491300196596 /* Security.framework */,
+				B4D61CC71329853D008C71DC /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B46E79D9132EDB1400E73D13 /* Launcher */ = {
+			isa = PBXGroup;
+			children = (
+				B4AE2C7C15271E48000B0B76 /* Localizable.strings */,
+				B4AE2C7D15271E48000B0B76 /* mainmenu.xib */,
+				B445C93C132EF28C008FB2FD /* samplereceipt */,
+			);
+			path = Launcher;
+			sourceTree = "<group>";
+		};
+		B46E79E0132EDE5200E73D13 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B46E79E1132EDE7400E73D13 /* WRAppController.h */,
+				B46E79E2132EDE7400E73D13 /* WRAppController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B4ABC265132E16F900EB3B21 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				B4ABC26D132E16F900EB3B21 /* Classes */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		B4ABC26D132E16F900EB3B21 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B4AE2C8015271F3C000B0B76 /* WRAppController.h */,
+				B4AE2C8115271F3C000B0B76 /* WRAppController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B4ABC293132E170300EB3B21 /* Launcher */ = {
+			isa = PBXGroup;
+			children = (
+				B46E79E0132EDE5200E73D13 /* Classes */,
+			);
+			path = Launcher;
+			sourceTree = "<group>";
+		};
+		B4AE2C8A1527211A000B0B76 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				B4AE2C9215272B2A000B0B76 /* Icon_Menubar.png */,
+				B4AE2C90152722F3000B0B76 /* Localizable.strings */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		B4B3F943132F0BE200142F7A /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				B422C14E132FCE4C0082A26B /* M42Defaults */,
+				B4B3F952132F0BE200142F7A /* Validation */,
+				B4B3F944132F0BE200142F7A /* Categories */,
+				B4B3F94B132F0BE200142F7A /* M42PinchableViews */,
+				B4B3F950132F0BE200142F7A /* main.m */,
+				B4B3F951132F0BE200142F7A /* prefix.pch */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		B4B3F944132F0BE200142F7A /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				B422C14A132FCE090082A26B /* NSUserDefaults+WR.h */,
+				B422C14B132FCE090082A26B /* NSUserDefaults+WR.m */,
+				B4B3F945132F0BE200142F7A /* NSFileManager+Count.h */,
+				B4B3F946132F0BE200142F7A /* NSFileManager+Count.m */,
+				B4B3F947132F0BE200142F7A /* NSString+UUID.h */,
+				B4B3F948132F0BE200142F7A /* NSString+UUID.m */,
+				B4B3F949132F0BE200142F7A /* NSWindow+localize.h */,
+				B4B3F94A132F0BE200142F7A /* NSWindow+localize.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		B4B3F94B132F0BE200142F7A /* M42PinchableViews */ = {
+			isa = PBXGroup;
+			children = (
+				B4B3F94C132F0BE200142F7A /* M42PinchableTableview.h */,
+				B4B3F94D132F0BE200142F7A /* M42PinchableTableview.m */,
+				B4B3F94E132F0BE200142F7A /* M42PinchableWebView.h */,
+				B4B3F94F132F0BE200142F7A /* M42PinchableWebView.m */,
+			);
+			path = M42PinchableViews;
+			sourceTree = "<group>";
+		};
+		B4B3F952132F0BE200142F7A /* Validation */ = {
+			isa = PBXGroup;
+			children = (
+				B4B3F953132F0BE200142F7A /* validatereceipt.h */,
+				B4B3F954132F0BE200142F7A /* validatereceipt.m */,
+			);
+			path = Validation;
+			sourceTree = "<group>";
+		};
+		B4B3F964132F0C5F00142F7A /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				B4AE2C7915271D71000B0B76 /* icon_WasteRemoval.icns */,
+				B4589603133001E9004B5E24 /* Html */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		B4BD4B9D1309EA12002B9DB5 = {
+			isa = PBXGroup;
+			children = (
+				B4AE2C7615271C75000B0B76 /* WasteRemovalLauncher-Info.plist */,
+				B4AE2C7515271C75000B0B76 /* WasteRemovalHelper-Info.plist */,
+				B4D2BD021309EA4B00C1D901 /* Sources */,
+				B4D2BCFE1309EA4B00C1D901 /* Resources */,
+				B4D2BCF81309EA3800C1D901 /* Products */,
+				B43EC67A132840B100196596 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B4D2BCF81309EA3800C1D901 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4D2BCF71309EA3800C1D901 /* WasteRemovalHelper.app */,
+				B4ABC217132BE21300EB3B21 /* WasteRemoval.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B4D2BCFE1309EA4B00C1D901 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B4AE2C8A1527211A000B0B76 /* Helper */,
+				B4B3F964132F0C5F00142F7A /* Common */,
+				B46E79D9132EDB1400E73D13 /* Launcher */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B4D2BD021309EA4B00C1D901 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				B4ABC265132E16F900EB3B21 /* Helper */,
+				B4B3F943132F0BE200142F7A /* Common */,
+				B4ABC293132E170300EB3B21 /* Launcher */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B4ABC1EF132BE21300EB3B21 /* WasteRemovalLauncher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4ABC214132BE21300EB3B21 /* Build configuration list for PBXNativeTarget "WasteRemovalLauncher" */;
+			buildPhases = (
+				B4ABC22C132E15EE00EB3B21 /* Copy Files */,
+				B4ABC1F1132BE21300EB3B21 /* Resources */,
+				B4ABC1FB132BE21300EB3B21 /* Sources */,
+				B4ABC20D132BE21300EB3B21 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4761B4E132EFA45007AD32E /* PBXTargetDependency */,
+			);
+			name = WasteRemovalLauncher;
+			productName = Autorunner;
+			productReference = B4ABC217132BE21300EB3B21 /* WasteRemoval.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B4D2BCF61309EA3800C1D901 /* WasteRemovalHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4D2BCFD1309EA3900C1D901 /* Build configuration list for PBXNativeTarget "WasteRemovalHelper" */;
+			buildPhases = (
+				B4D2BCF31309EA3800C1D901 /* Resources */,
+				B4D2BCF41309EA3800C1D901 /* Sources */,
+				B4D2BCF51309EA3800C1D901 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WasteRemovalHelper;
+			productName = Autorunner;
+			productReference = B4D2BCF71309EA3800C1D901 /* WasteRemovalHelper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B4BD4B9F1309EA12002B9DB5 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = B4BD4BA21309EA12002B9DB5 /* Build configuration list for PBXProject "WasteRemoval" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = B4BD4B9D1309EA12002B9DB5;
+			productRefGroup = B4D2BCF81309EA3800C1D901 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B4D2BCF61309EA3800C1D901 /* WasteRemovalHelper */,
+				B4ABC1EF132BE21300EB3B21 /* WasteRemovalLauncher */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B4ABC1F1132BE21300EB3B21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B445C93D132EF28C008FB2FD /* samplereceipt in Resources */,
+				B4589605133001E9004B5E24 /* Html in Resources */,
+				B4AE2C7B15271D78000B0B76 /* icon_WasteRemoval.icns in Resources */,
+				B4AE2C7E15271E48000B0B76 /* Localizable.strings in Resources */,
+				B4AE2C7F15271E48000B0B76 /* mainmenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4D2BCF31309EA3800C1D901 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4400C8013436D03003C43B4 /* Html in Resources */,
+				B4AE2C7A15271D71000B0B76 /* icon_WasteRemoval.icns in Resources */,
+				B4AE2C91152722F3000B0B76 /* Localizable.strings in Resources */,
+				B4AE2C9315272B2A000B0B76 /* Icon_Menubar.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B4ABC1FB132BE21300EB3B21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B46E79E3132EDE7400E73D13 /* WRAppController.m in Sources */,
+				B4B3F956132F0BE200142F7A /* NSFileManager+Count.m in Sources */,
+				B4B3F958132F0BE200142F7A /* NSString+UUID.m in Sources */,
+				B4B3F95A132F0BE200142F7A /* NSWindow+localize.m in Sources */,
+				B4B3F95C132F0BE200142F7A /* M42PinchableTableview.m in Sources */,
+				B4B3F95E132F0BE200142F7A /* M42PinchableWebView.m in Sources */,
+				B4B3F960132F0BE200142F7A /* main.m in Sources */,
+				B422C14D132FCE090082A26B /* NSUserDefaults+WR.m in Sources */,
+				B422C152132FCE4C0082A26B /* M42Defaults.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4D2BCF41309EA3800C1D901 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4B3F955132F0BE200142F7A /* NSFileManager+Count.m in Sources */,
+				B4B3F957132F0BE200142F7A /* NSString+UUID.m in Sources */,
+				B4B3F959132F0BE200142F7A /* NSWindow+localize.m in Sources */,
+				B4B3F95B132F0BE200142F7A /* M42PinchableTableview.m in Sources */,
+				B4B3F95D132F0BE200142F7A /* M42PinchableWebView.m in Sources */,
+				B4B3F95F132F0BE200142F7A /* main.m in Sources */,
+				B422C14C132FCE090082A26B /* NSUserDefaults+WR.m in Sources */,
+				B422C151132FCE4C0082A26B /* M42Defaults.m in Sources */,
+				B4AE2C8215271F3C000B0B76 /* WRAppController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B4761B4E132EFA45007AD32E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4D2BCF61309EA3800C1D901 /* WasteRemovalHelper */;
+			targetProxy = B4761B4D132EFA45007AD32E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B4ABC215132BE21300EB3B21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = "WasteRemovalLauncher-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = WasteRemoval;
+			};
+			name = Debug;
+		};
+		B4ABC216132BE21300EB3B21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				INFOPLIST_FILE = "WasteRemovalLauncher-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = WasteRemoval;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		B4BD4BA01309EA12002B9DB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Sources/Common/prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = USE_SAMPLE_RECEIPT;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				SDKROOT = macosx;
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Debug;
+		};
+		B4BD4BA11309EA12002B9DB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Sources/Common/prefix.pch;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				SDKROOT = macosx;
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Release;
+		};
+		B4D2BCFB1309EA3900C1D901 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = "WasteRemovalHelper-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = WasteRemovalHelper;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B4D2BCFC1309EA3900C1D901 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				INFOPLIST_FILE = "WasteRemovalHelper-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = WasteRemovalHelper;
+				SKIP_INSTALL = YES;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B4ABC214132BE21300EB3B21 /* Build configuration list for PBXNativeTarget "WasteRemovalLauncher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4ABC215132BE21300EB3B21 /* Debug */,
+				B4ABC216132BE21300EB3B21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4BD4BA21309EA12002B9DB5 /* Build configuration list for PBXProject "WasteRemoval" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4BD4BA01309EA12002B9DB5 /* Debug */,
+				B4BD4BA11309EA12002B9DB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4D2BCFD1309EA3900C1D901 /* Build configuration list for PBXNativeTarget "WasteRemovalHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4D2BCFB1309EA3900C1D901 /* Debug */,
+				B4D2BCFC1309EA3900C1D901 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B4BD4B9F1309EA12002B9DB5 /* Project object */;
+}
