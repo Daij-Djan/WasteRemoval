@@ -7,4 +7,4 @@ WasteRemoval will reside in your menubar (almost No UI) and empty your trash whe
 ##License
 Tool is technically designed to be released to the app store. It's something I threw together real quick because I needed the functionality. 
 Pragmatically viewed this was a waste of time :D
-#The tool may serve as a 'teaching example' and I therefore release it under BSD
+#The tool may serve as a 'teaching example' and I therefore release it under MIT
